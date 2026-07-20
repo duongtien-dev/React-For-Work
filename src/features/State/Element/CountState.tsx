@@ -1,7 +1,8 @@
 import Button from "@/components/common/Button/Index"
 import { useState } from "react"
 // hooks - useState - lưu trữ dữ liệu cục bộ
-// quản lý kiểu dữ liệu: string - number - boolean - array - object - function
+// count: state, setCount: setState
+// quản lý kiểu dữ liệu: string - number - boolean - array(number, string, boolean) - object - function
 
 interface Course {
     id: number;
@@ -17,6 +18,10 @@ export default function CountState() {
     const [course, setCourse] = useState<Course>()
 
     const [courses, setCourses] = useState<Course[]>([])
+
+    // count: state, setCount: setState ||
+    // const [phoneNumber, setPhoneNumber] = useState<number | null>(null)
+    // const [password, setPassword] = useState('')
 
     const handleDeleteCourse = (courseId: number) => {
         setCourses(courses.filter(course => course.id !== courseId))
