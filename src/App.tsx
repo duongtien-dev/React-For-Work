@@ -11,7 +11,7 @@ function App() {
     const [count, setCount] = useState(0);
 
     return (
-        <div className="flex flex-col gap-4 mx-auto max-w-md p-10">
+        <div >
             {/* <h1>Hello World</h1>
             <p>Count: {count}</p>
             <button className="bg-blue-500 text-white p-2 rounded-md" onClick={() => setCount(count + 1)}>Tăng</button> */}
