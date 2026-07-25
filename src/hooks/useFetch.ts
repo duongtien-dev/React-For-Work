@@ -7,6 +7,8 @@ import { useEffect, useState } from "react"
 
 function useFetch<T>(urlApi: string) {
     const [data, setData] = useState<T | null>(null); // IUser
+    // loading + skeleton
+    // error + message
 
     useEffect(() => {
         const fetchData = async () => {

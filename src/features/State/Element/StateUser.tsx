@@ -22,7 +22,7 @@ const StateUser = () => {
     // hooks
     const { data: listUsers } = useFetch<IUser[]>('https://jsonplaceholder.typicode.com/users')
 
-    if(!listUsers) {
+    if (!listUsers) {
         return null
     }
     // 10 -> 1

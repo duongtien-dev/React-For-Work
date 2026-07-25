@@ -1,3 +1,4 @@
+import StateAndAPI from '../StateAndAPI';
 import CountState from './Element/CountState';
 import StateFee from './Element/StateFee';
 import StateFree from './Element/StateFree';
@@ -10,7 +11,8 @@ export default function State() {
             {/* <CountState /> */}
             {/* <StateFee /> */}
             {/* <StateFree /> */}
-            <StateUser />
+            {/* <StateUser /> */}
+            <StateAndAPI />
         </div>
     );
 }
