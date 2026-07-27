@@ -1,6 +1,7 @@
 
 interface InputTextProps extends React.ComponentProps<'input'> { }
 //  tự động nhận được các props từ input, optional props
+// ...props: value, onChange
 
 const InputText = ({ className = '', type = 'text', disabled, ...props }: InputTextProps) => {
     return (

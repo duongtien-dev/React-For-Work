@@ -18,3 +18,9 @@ const UserCard = ({ user }: UserCardProps) => {
 }
 
 export default UserCard
+
+
+
+// src
+// tsx: react component + typescript
+// ts: typescript

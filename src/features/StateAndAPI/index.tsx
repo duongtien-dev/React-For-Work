@@ -24,16 +24,17 @@ const StateAndAPI = () => {
     // }, [])
 
     const { data: users } = useFetchFn<IUser[]>('https://jsonplaceholder.typicode.com/users')
+    //  data: -> users
 
-    if (!users) {
-        <div>Khong co du lieu User</div>
+    if (!users || users.length === 0) {
+        return <div>Khong co du lieu User</div>
     }
 
     return (
         <div className='grid grid-cols-3 gap-5'>
             <h1 className='text-[30px] font-bold'>Danh sach Nguoi dung</h1>
             {
-                users?.map(user => (
+                users.map(user => (
                     <UserCard user={user} />
                 ))
             }
@@ -54,3 +55,9 @@ export default StateAndAPI
 // props
 // code smell -> thoi
 // tai su dung componets + props, object
+// useUsers
+
+
+// 1 đọc api tạo object interface
+// 2 tạo state và call api
+// 3 render data

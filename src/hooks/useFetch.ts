@@ -13,7 +13,7 @@ function useFetch<T>(urlApi: string) {
     useEffect(() => {
         const fetchData = async () => {
             const res = await fetch(urlApi);
-            const data = await res.json();
+            const data: T = await res.json();
             setData(data);
         };
 

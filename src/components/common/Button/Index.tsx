@@ -1,55 +1,51 @@
 import type { FC, ButtonHTMLAttributes } from 'react';
 
-interface ButtonProps
-    extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'type'> {
-    variant?: 'default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link';
-    size?: 'default' | 'sm' | 'lg' | 'icon';
+interface ButtonProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'type'> {
+    variant?: 'outline' | 'bold';
+    type?: 'primary' | 'secondary' | 'danger';
+    size?: 'md';
 }
 
 const classType = {
-    default:
-        'bg-blue-600 text-white hover:bg-blue-700',
-    destructive:
-        'bg-red-500 text-white hover:bg-red-600',
-    outline:
-        'border border-gray-300 bg-white text-gray-700 hover:bg-gray-50',
-    secondary:
-        'bg-blue-100 text-blue-700 hover:bg-blue-200',
-    ghost:
-        'text-gray-700 hover:bg-blue-50 hover:text-blue-700',
-    link:
-        'text-blue-600 underline-offset-4 hover:text-blue-700 hover:underline',
-};
+    outline: {
+        primary:
+            'text-blue-500 border border-blue-500 hover:bg-blue-500 hover:text-white',
+        secondary:
+            'text-gray-500 border border-gray-500 hover:bg-gray-500 hover:text-white',
+        danger:
+            'text-red-500 border border-red-500 hover:bg-red-500 hover:text-white',
+    },
 
-const classSize = {
-    default: 'h-10 px-4 py-2.5',
-    sm: 'h-9 px-3',
-    lg: 'h-11 px-8',
-    icon: 'h-10 w-10',
+    bold: {
+        primary:
+            'text-white bg-blue-500 hover:bg-blue-600 disabled:bg-gray-300',
+
+        secondary:
+            'text-white bg-gray-500 hover:bg-gray-600 disabled:bg-gray-300',
+
+        danger:
+            'text-white bg-red-500 hover:bg-red-600 disabled:bg-red-300',
+    },
+
+    size: {
+        md: 'py-2 px-4 text-base',
+    },
 };
 
 const Button: FC<ButtonProps> = ({
     children,
     className = '',
-    variant = 'default',
-    size = 'default',
+    type = 'primary',
+    variant = 'bold',
+    size = 'md',
     ...props
 }) => {
     return (
         <button
             className={`
-                inline-flex items-center justify-center
-                whitespace-nowrap rounded-md
-                text-sm font-medium
-                transition-colors
-                focus-visible:outline-none
-                focus-visible:ring-2
-                focus-visible:ring-blue-500
-                focus-visible:ring-offset-2
-                disabled:pointer-events-none
-                disabled:opacity-50
-                ${classType[variant]}
-                ${classSize[size]}
+                rounded-lg transition-all duration-300
+                ${classType[variant][type]}
+                ${classType.size[size]}
                 ${className}
             `}
             {...props}
@@ -60,3 +56,9 @@ const Button: FC<ButtonProps> = ({
 };
 
 export default Button;
+// xs - iphone
+// sm - ipad
+// md - laptop
+// lg - desktop
+// xl - tv
+// 2xl - 4k
