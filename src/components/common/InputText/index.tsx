@@ -1,6 +1,8 @@
 interface InputTextProps extends Omit<React.ComponentProps<'input'>, 'onChange'> {
-    onChange?: (value: string) => void;
+    onChange?: (value: string) => void; // props
 }
+
+// kế thừa ComponentProps từ input, không lấy onChange
 //  tự động nhận được các props từ input, optional props
 // ...props: value, onChange
 
@@ -17,3 +19,5 @@ const InputText = ({ className = '', type = 'text', disabled, onChange, ...props
 
 export default InputText
 
+
+// e.target.value

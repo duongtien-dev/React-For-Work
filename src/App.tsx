@@ -8,6 +8,8 @@ import Login from "./features/Login"
 import TodoApp from "./features/Todos"
 import TodoAdvance from "./features/Todos/TodoAdvance"
 import TodoAdvancePro from "./features/Todos/TodoAdvancePro"
+import Register from "./features/Register"
+import { ToastContainer } from 'react-toastify';
 
 function App() {
     // let count = 0;
@@ -30,7 +32,9 @@ function App() {
             <Button>Click me</Button> */}
             {/* <State /> */}
             {/* <Login /> */}
-            <TodoAdvancePro />
+            <Register />
+
+            <ToastContainer />
         </div>
     )
 }

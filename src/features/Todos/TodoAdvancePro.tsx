@@ -4,7 +4,6 @@ import Button from '@/components/common/Button/Index';
 import InputText from '@/components/common/InputText';
 import Switch from '@/components/common/Switch';
 import TextArea from '@/components/common/TextArea';
-
 import type { ITodo } from '@/models/Todo';
 import TodoCard from './TodoCard';
 
@@ -69,7 +68,6 @@ export default function TodoAdvancePro() {
 
                 <div className="mb-6 flex flex-col gap-3">
                     <InputText
-                        name="name"
                         value={newTodo.name}
                         onChange={(value) =>
                             handleChangeTodo('name', value)
@@ -79,7 +77,6 @@ export default function TodoAdvancePro() {
                     />
 
                     <TextArea
-                        name="description"
                         value={newTodo.description}
                         onChange={(value) =>
                             handleChangeTodo('description', value)
@@ -93,7 +90,6 @@ export default function TodoAdvancePro() {
                         </label>
 
                         <Switch
-                            id="completed"
                             checked={newTodo.completed}
                             onChange={(checked) =>
                                 handleChangeTodo('completed', checked)
