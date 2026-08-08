@@ -56,6 +56,9 @@ const Button: FC<ButtonProps> = ({
 };
 
 export default Button;
+// bold: co background
+// outline: co border
+
 // xs - iphone
 // sm - ipad
 // md - laptop

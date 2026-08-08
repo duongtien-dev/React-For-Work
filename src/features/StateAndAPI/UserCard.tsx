@@ -4,6 +4,10 @@ interface UserCardProps {
     user: IUser;
 }
 
+// type UserCardProps = {
+//     user: IUser;
+// }
+
 // {}
 
 const UserCard = ({ user }: UserCardProps) => {

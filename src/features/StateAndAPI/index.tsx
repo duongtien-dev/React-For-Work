@@ -34,6 +34,10 @@ const StateAndAPI = () => {
         <div className='grid grid-cols-3 gap-5'>
             <h1 className='text-[30px] font-bold'>Danh sach Nguoi dung</h1>
             {
+                // 10 user => 10 component UserCard
+                // for (let i = 0; i < users.length; i++)
+
+                // user={user}
                 users.map(user => (
                     <UserCard user={user} />
                 ))
