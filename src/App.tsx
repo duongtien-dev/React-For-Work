@@ -1,42 +1,30 @@
-import InputText from "./components/common/InputText"
-import TextArea from "./components/common/TextArea"
-import RadioButton from "./components/common/RadioButton"
-import Button from "./components/common/Button/Index"
-import State from "./features/State"
-import { useState } from "react"
-import Login from "./features/Login"
-import TodoApp from "./features/Todos"
-import TodoAdvance from "./features/Todos/TodoAdvance"
-import TodoAdvancePro from "./features/Todos/TodoAdvancePro"
-import Register from "./features/Register"
-import { ToastContainer } from 'react-toastify';
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import HomePage from "./pages/Home"
+import LoginPage from "./pages/Login"
+import ExplorePage from "./pages/Explore/"
+import CourseDetailPage from "./pages/CourseDetail"
+import CheckoutPage from "./pages/Checkout"
 
 function App() {
-    // let count = 0;
-    // count: state, setCount: setState
-    const [count, setCount] = useState(0);
-
     return (
-        <div >
-            {/* <h1>Hello World</h1>
-            <p>Count: {count}</p>
-            <button className="bg-blue-500 text-white p-2 rounded-md" onClick={() => setCount(count + 1)}>Tăng</button> */}
-            {/* <InputText placeholder="Nhập email" />
-            <TextArea placeholder="Nhập nội dung" disabled />
-            <label htmlFor="">Giới tính</label>
-            <label htmlFor="">Nam</label>
-            <RadioButton />
-            <label htmlFor="">Nữ</label>
-            <RadioButton disabled />
+        <>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/login" element={<LoginPage />} />
+                    <Route path="/explore" element={<ExplorePage />} />
 
-            <Button>Click me</Button> */}
-            {/* <State /> */}
-            {/* <Login /> */}
-            <Register />
-
-            <ToastContainer />
-        </div>
+                    {/* <Route path='/courseDetail' element={<CourseDetailPage />} /> */}
+                    {/* courseId = ${course._id} */}
+                    {/* courseId = course1 */}
+                    {/* :courseId: params */}
+                    <Route path='/course/:courseId' element={<CourseDetailPage />} />
+                    <Route path="/checkout/:courseId" element={<CheckoutPage />} />
+                </Routes>
+            </BrowserRouter>
+        </>
     )
 }
 
 export default App
+

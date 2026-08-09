@@ -4,30 +4,37 @@ import axios from 'axios'
 import React, { useState } from 'react'
 import { toast } from 'react-toastify'
 
-const Register = () => {
-    const [fullName, setFullName] = useState('')
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
-    const [phone, setPhone] = useState('')
-    // quanr ly state rieng le
+const RegisterAdvance = () => {
+    const [formData, setFormData] = useState({
+        fullName: '',
+        email: '',
+        password: '',
+        phone: ''
+    })
+
+    // key: string = "fullName" | "email" | "password" | "phone"
+    // value: any = string | number | boolean | object | array | function | undefined | null
+    const handleChange = (key: string, value: any) => {
+        setFormData({ ...formData, [key]: value })
+    }
 
     const validate = () => {
-        if (!fullName || !email || !password || !phone) {
+        if (!formData.fullName || !formData.email || !formData.password || !formData.phone) {
             toast.warning('Vui lòng nhập đầy đủ thông tin')
             return false
         }
 
-        if (!email.includes('@')) {
+        if (!formData.email.includes('@')) {
             toast.warning('Email không hợp lệ')
             return false
         }
 
-        if (password.length < 8) {
+        if (formData.password.length < 8) {
             toast.warning('Mật khẩu phải có ít nhất 8 ký tự')
             return false
         }
 
-        if (phone.length !== 10) {
+        if (formData.phone.length !== 10) {
             toast.warning('Số điện thoại phải có 10 chữ số')
             return false
         }
@@ -40,21 +47,17 @@ const Register = () => {
         if (!isValid) return
 
         try {
-            const response = await axios.post('https://nestjs-api-coursera.onrender.com/auth/register', {
-                fullName,
-                email,
-                password,
-                phone
-            })
-            // === a: number, b: number => a === b : so sanh kieu du lieu va gia tri
+            const response = await axios.post('https://nestjs-api-coursera.onrender.com/auth/register', formData)
             if ((response.data as any).statusCode === 200) {
                 toast.success('Đăng ký thành công')
 
                 // reset form
-                setFullName('')
-                setEmail('')
-                setPassword('')
-                setPhone('')
+                setFormData({
+                    fullName: '',
+                    email: '',
+                    password: '',
+                    phone: ''
+                })
             }
         } catch (error) {
             toast.error('Đăng ký thất bại')
@@ -66,24 +69,24 @@ const Register = () => {
             <h1 className='text-2xl font-bold'>Đăng ký</h1>
             <div className='flex flex-col gap-2 w-[400px]'>
                 <InputText
-                    value={fullName}
-                    onChange={value => setFullName(value)} // e.target.value
+                    value={formData.fullName}
+                    onChange={value => handleChange('fullName', value)} // e.target.value
                     placeholder='Tên đăng nhập'
                 />
                 <InputText
-                    value={email}
-                    onChange={value => setEmail(value)}
+                    value={formData.email}
+                    onChange={value => handleChange('email', value)}
                     placeholder='Email'
                 />
                 <InputText
-                    value={password}
-                    onChange={value => setPassword(value)}
+                    value={formData.password}
+                    onChange={value => handleChange('password', value)}
                     placeholder='Mật khẩu'
                     type='password'
                 />
                 <InputText
-                    value={phone}
-                    onChange={value => setPhone(value)}
+                    value={formData.phone}
+                    onChange={value => handleChange('phone', value)}
                     placeholder='Số điện thoại'
                 />
             </div>
@@ -92,4 +95,4 @@ const Register = () => {
     )
 }
 
-export default Register
+export default RegisterAdvance

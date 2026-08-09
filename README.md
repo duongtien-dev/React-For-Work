@@ -1,3 +1,11 @@
+# React-router-dom'
+- import { BrowserRouter, Routes, Route, useParams, useNavigate, Link } from "react-router-dom"
+- BrowserRouter:
+- useParams: lấy params(:courseId)
+- useNavigate: điều hướng (action ...)
+- Link: điều hướng header(navbar), footer
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -73,4 +81,4 @@ export default defineConfig([
 ])
 
 ```
-"# React-For-Work" 
+"# React-For-Work"
