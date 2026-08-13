@@ -1,52 +1,77 @@
 import Button from '@/components/common/Button/Index'
 import InputText from '@/components/common/InputText'
-import TextArea from '@/components/common/TextArea'
 import axios from 'axios'
-import React, { useState } from 'react'
+import React, { useCallback, useState, FormEvent } from 'react'
 
-const Login = () => {
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
+const Login: React.FC = () => {
+  const [email, setEmail] = useState<string>('')
+  const [password, setPassword] = useState<string>('')
+  const [loading, setLoading] = useState<boolean>(false)
+  const [error, setError] = useState<string | null>(null)
+  const [success, setSuccess] = useState<string | null>(null)
 
-    const handleLogin = async () => {
-        // console.log('email: ', email)
-        // console.log('password: ', password)
+  const handleSubmit = useCallback(
+    async (e: FormEvent) => {
+      e.preventDefault()
+      setError(null)
+      setSuccess(null)
 
-        try {
-            const response = await axios.post('https://nestjs-api-coursera.onrender.com/auth/login', {
-                email,
-                password
-            })
-            console.log('response: ', response)
-        } catch (error) {
-            console.log('error: ', error)
-        }
-    }
+      if (!email || !password) {
+        setError('Email and password are required')
+        return
+      }
 
-    return (
-        <div className='flex flex-col justify-center h-screen gap-5 w-[500px] mx-auto'>
-            <h1 className='text-2xl font-bold'>Login</h1>
-            <div className='flex flex-col gap-5'>
-                <label htmlFor="email">Email</label>
-                <InputText
-                    type="text"
-                    placeholder='email'
-                    value={email} // gia tri cua input = state email
-                    onChange={(e) => setEmail(e.target.value)} // khi nhap vao input, state email se thay doi
-                />
+      setLoading(true)
+      try {
+        const { data } = await axios.post(
+          'https://nestjs-api-coursera.onrender.com/auth/login',
+          { email, password }
+        )
 
-                <label htmlFor="password">Password</label>
-                <InputText
-                    type="password"
-                    placeholder='Password'
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                />
+        // handle response as needed (store token, redirect, etc.)
+        console.log('response: ', data)
+        setSuccess('Logged in successfully')
+      } catch (err: any) {
+        console.error(err)
+        const message = err?.response?.data?.message || err.message || 'Login failed'
+        setError(message)
+      } finally {
+        setLoading(false)
+      }
+    },
+    [email, password]
+  )
 
-                <Button onClick={handleLogin}>Login</Button>
-            </div>
-        </div>
-    )
+  return (
+    <div className="flex flex-col justify-center h-screen gap-5 w-[500px] mx-auto">
+      <h1 className="text-2xl font-bold">Login</h1>
+
+      <form onSubmit={handleSubmit} className="flex flex-col gap-5" noValidate>
+        <label htmlFor="email">Email</label>
+        <InputText
+          id="email"
+          type="email"
+          placeholder="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+
+        <label htmlFor="password">Password</label>
+        <InputText
+          id="password"
+          type="password"
+          placeholder="Password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+
+        {error && <p className="text-red-600" role="alert">{error}</p>}
+        {success && <p className="text-green-600">{success}</p>}
+
+        <Button type="submit" disabled={loading}>{loading ? 'Logging...' : 'Login'}</Button>
+      </form>
+    </div>
+  )
 }
 
 export default Login
