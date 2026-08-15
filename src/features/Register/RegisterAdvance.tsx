@@ -96,3 +96,7 @@ const RegisterAdvance = () => {
 }
 
 export default RegisterAdvance
+
+// if (neu co token) { van o website} : 5p user -> xoa
+// else { dang xuat }
+// refreshToken: 7d deo co -> token
