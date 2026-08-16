@@ -10,20 +10,20 @@ import useFetchFn from '@/hooks/useFetchFn';
 
 const StateAndAPI = () => {
     // hook: useState
-    // const [users, setUsers] = useState<IUser[]>([])
+    const [users, setUsers] = useState<IUser[]>([])
 
-    // hook: useEffect: load đầu tiên trước khi render components
-    // useEffect(() => {
-    //     const fetchUsersAPI = async () => {
-    //         const res = await fetch('https://jsonplaceholder.typicode.com/users');
-    //         const data = await res.json();
-    //         setUsers(data); // users co du lieu
-    //     }
-    //     fetchUsersAPI()
+    // hook: useEffect: load đầu tiên sau khi return UI -> call api set state -> render UI
+    useEffect(() => {
+        const fetchUsersAPI = async () => {
+            const res = await fetch('https://jsonplaceholder.typicode.com/users');
+            const data = await res.json();
+            setUsers(data); // users co du lieu
+        }
+        fetchUsersAPI()
 
-    // }, [])
+    }, [])
 
-    const { data: users } = useFetchFn<IUser[]>('https://jsonplaceholder.typicode.com/users')
+    // const { data: users } = useFetchFn<IUser[]>('https://jsonplaceholder.typicode.com/users')
     //  data: -> users
 
     if (!users || users.length === 0) {

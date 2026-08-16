@@ -1,4 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import HomePage from "./pages/Home"
 import LoginPage from "./pages/Login"
 import ExplorePage from "./pages/Explore/"
@@ -8,6 +10,7 @@ import CheckoutPage from "./pages/Checkout"
 function App() {
     return (
         <>
+            {/* Provider Router */}
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<HomePage />} />
@@ -22,6 +25,7 @@ function App() {
                     <Route path="/checkout/:courseId" element={<CheckoutPage />} />
                 </Routes>
             </BrowserRouter>
+            <ToastContainer />
         </>
     )
 }

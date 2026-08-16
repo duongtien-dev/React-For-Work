@@ -5,6 +5,7 @@ import React, { useState } from 'react'
 import { toast } from 'react-toastify'
 
 const RegisterAdvance = () => {
+    // Javascript + typescript
     const [formData, setFormData] = useState({
         fullName: '',
         email: '',
@@ -64,6 +65,8 @@ const RegisterAdvance = () => {
         }
     }
 
+
+    // UI + Javascript + typescript
     return (
         <div className='flex flex-col gap-2 items-center justify-center h-screen'>
             <h1 className='text-2xl font-bold'>Đăng ký</h1>
@@ -100,3 +103,7 @@ export default RegisterAdvance
 // if (neu co token) { van o website} : 5p user -> xoa
 // else { dang xuat }
 // refreshToken: 7d deo co -> token
+
+// ham arrow function
+
+
