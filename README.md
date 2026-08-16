@@ -1,6 +1,6 @@
 # React-router-dom'
 - import { BrowserRouter, Routes, Route, useParams, useNavigate, Link } from "react-router-dom"
-- BrowserRouter:
+- BrowserRouter, routes, route
 - useParams: lấy params(:courseId)
 - useNavigate: điều hướng (action ...)
 - Link: điều hướng header(navbar), footer
