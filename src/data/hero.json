@@ -1,0 +1,770 @@
+[
+    {
+        "name": "Biron",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/biron-100x100.jpg",
+        "position": "Trên",
+        "counters": "Florentino|Hayate|Thane"
+    },
+    {
+        "name": "Thane",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Thane.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Alice|Baldum|Toro"
+    },
+    {
+        "name": "Mina",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Mina.webp",
+        "position": "Hỗ Trợ|Trên",
+        "counters": "Alice|Baldum|Thane"
+    },
+    {
+        "name": "Butterfly",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Butterfly-100x100-1.webp",
+        "position": "Đi Rừng",
+        "counters": "Arum|Zephys|Richter"
+    },
+    {
+        "name": "Toro",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Toro-100x100-1.webp",
+        "position": "Hỗ Trợ|Trên",
+        "counters": "Alice|Baldum|Thane"
+    },
+    {
+        "name": "Nakroth",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Nakroth-100x100-1.webp",
+        "position": "Đi Rừng",
+        "counters": "Arum|Zephys|Baldum"
+    },
+    {
+        "name": "Maloch",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Maloch-100x100-1.webp",
+        "position": "Trên",
+        "counters": "Zephys|Omen|Amily"
+    },
+    {
+        "name": "Ignis",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Ignis.webp",
+        "position": "Giữa",
+        "counters": "Zuka|Quillen|Nakroth"
+    },
+    {
+        "name": "Astrid",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Astrid.webp",
+        "position": "Trên|Đi Rừng",
+        "counters": "Gildur|Lauriel|Lữ Bố"
+    },
+    {
+        "name": "Wonder Woman",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Wonder-Woman.webp",
+        "position": "Đi Rừng|Trên",
+        "counters": "Maloch|Hayate|Zephys"
+    },
+    {
+        "name": "TeeMee",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/TeeMee.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Alice|Baldum|Thane"
+    },
+    {
+        "name": "Tulen",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Tulen.webp",
+        "position": "Giữa|Đi Rừng",
+        "counters": "Kriknak|Murad|Hayate"
+    },
+    {
+        "name": "Liliana",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Liliana.webp",
+        "position": "Giữa",
+        "counters": "Murad|Kriknak|Nakroth"
+    },
+    {
+        "name": "Richter",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Richter-100x100-1.webp",
+        "position": "Hỗ Trợ|Trên",
+        "counters": "Zephys|Lữ Bố|Maloch"
+    },
+    {
+        "name": "Sephera",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Sephera-100x100-1.webp",
+        "position": "Hỗ Trợ|Giữa",
+        "counters": "Maloch|Omen|Zephys"
+    },
+    {
+        "name": "Florentino",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Florentino-100x100-1.webp",
+        "position": "Trên",
+        "counters": "Marja|Valhein|Lauriel"
+    },
+    {
+        "name": "Hayate",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Hayate-100x100-1.webp",
+        "position": "Dưới",
+        "counters": "Aleister|Gildur|TeeMee"
+    },
+    {
+        "name": "Capheny",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Capheny-100x100-1.webp",
+        "position": "Dưới",
+        "counters": "Zill|Quillen|Kriknak"
+    },
+    {
+        "name": "Celica",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Celica-100x100-1.webp",
+        "position": "Dưới",
+        "counters": "Murad|Nakroth|Kriknak"
+    },
+    {
+        "name": "Vol'kath",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Volkath.webp",
+        "position": "Đi Rừng|Trên",
+        "counters": "Baldum|Fennik|Aleister"
+    },
+    {
+        "name": "Eland'orr",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Elandorr-100x100-1.webp",
+        "position": "Đi Rừng|Dưới",
+        "counters": "Murad|Nakroth|Kriknak"
+    },
+    {
+        "name": "Keera",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Keera-100x100-1.webp",
+        "position": "Đi Rừng",
+        "counters": "Kriknak|Murad|Nakroth"
+    },
+    {
+        "name": "Paine",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Paine-100x100-1.webp",
+        "position": "Đi Rừng",
+        "counters": "Nakroth|Zill|Veera"
+    },
+    {
+        "name": "Zata",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Zata-100x100-1.webp",
+        "position": "Giữa",
+        "counters": "Zephys|Nakroth|Zill"
+    },
+    {
+        "name": "Allain",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Allain-100x100-1.webp",
+        "position": "Trên",
+        "counters": "Hayate|Eland’orr|Fennik"
+    },
+    {
+        "name": "Lorion",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Lorion-100x100-1.webp",
+        "position": "Giữa",
+        "counters": "Zill|Nakroth|Murad"
+    },
+    {
+        "name": "Bright",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Bright-100x100-1.webp",
+        "position": "Đi Rừng",
+        "counters": "Murad|Nakroth|Kriknak"
+    },
+    {
+        "name": "Iggy",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Iggy-e1724323882340-100x100-1.webp",
+        "position": "Giữa",
+        "counters": "Zuka|Ngộ Không|Kriknak"
+    },
+    {
+        "name": "Aoi",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Aoi-100x100-1.webp",
+        "position": "Đi Rừng",
+        "counters": "Arum|Stuart|Zephys"
+    },
+    {
+        "name": "Aya",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Aya-100x100-1.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Ngộ Không|Zata|Kriknak"
+    },
+    {
+        "name": "Teeri",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Teeri-100x100-1.webp",
+        "position": "Dưới",
+        "counters": "Kriknak|Nakroth|Murad"
+    },
+    {
+        "name": "Bonnie",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Bonnie-100x100-1.webp",
+        "position": "Giữa",
+        "counters": "Kriknak|Murad|Nakroth"
+    },
+    {
+        "name": "Ming",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Ming-100x100-1.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Zill|Murad|Ngộ Không"
+    },
+    {
+        "name": "Erin",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Erin-100x100-1.webp",
+        "position": "Dưới",
+        "counters": "Ilumia|Aoi|Omen"
+    },
+    {
+        "name": "Tachi",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Tachi-100x100-1.webp",
+        "position": "Đi Rừng|Trên",
+        "counters": "Toro|Hayate|Omen"
+    },
+    {
+        "name": "Charlotte",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Charlotte-100x100-1.webp",
+        "position": "Đi Rừng|Trên",
+        "counters": "Veera|Marja|Lữ Bố"
+    },
+    {
+        "name": "Dolia",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Dolia-100x100-1.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Paine|Lindis|Baldum"
+    },
+    {
+        "name": "Bolt Baron",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Bolt-Baron-100x100.jpg",
+        "position": "Trên",
+        "counters": "Florentino|Keera|Liliana"
+    },
+    {
+        "name": "Billow",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2026/05/billow-anh-dai-dien.jpg",
+        "position": "Đi Rừng",
+        "counters": "Arthur|Omen|Thane"
+    },
+    {
+        "name": "Dyadia",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2026/06/Dyadia-anh-dai-dien.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Ngộ Không|Nakroth|Zill"
+    },
+    {
+        "name": "Airi",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Airi-100x100.webp",
+        "position": "Trên|Đi Rừng",
+        "counters": "Arum|Zephys|Kriknak"
+    },
+    {
+        "name": "Lữ Bố",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Lu-Bo-100x100-1.webp",
+        "position": "Trên",
+        "counters": "Zephys|Maloch|Omen"
+    },
+    {
+        "name": "Krixi",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Krixi.webp",
+        "position": "Giữa",
+        "counters": "The Flash|Keera|Sinestrea"
+    },
+    {
+        "name": "Triệu Vân",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Trieu-Van-100x100-1.webp",
+        "position": "Đi Rừng|Trên",
+        "counters": "Hayate|Eland’orr|Fennik"
+    },
+    {
+        "name": "Kahlii",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Kahlii.webp",
+        "position": "Giữa",
+        "counters": "Zill|Murad|Nakroth"
+    },
+    {
+        "name": "Zephys",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Zephys.webp",
+        "position": "Đi Rừng",
+        "counters": "Hayate|Eland’orr|Aleister"
+    },
+    {
+        "name": "Điêu Thuyền",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Dieu-Thuyen-100x100-1.webp",
+        "position": "Giữa",
+        "counters": "Zill|Murad|Nakroth"
+    },
+    {
+        "name": "Chaugnar",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Chaugnar-100x100-1.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Lauriel|Raz|Violet"
+    },
+    {
+        "name": "Violet",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Violet-100x100-1.webp",
+        "position": "Dưới",
+        "counters": "Murad|Ngộ Không|Zuka"
+    },
+    {
+        "name": "Ormarr",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Ormarr-100x100-1.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Zephys|Omen|Xeniel"
+    },
+    {
+        "name": "Azzen'Ka",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2026/05/azzenka-icon.webp",
+        "position": "Giữa",
+        "counters": "Zill|Murad|Nakroth"
+    },
+    {
+        "name": "Alice",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Alice.webp",
+        "position": "Hỗ Trợ|Giữa",
+        "counters": "Ngộ Không|Nakroth|Zill"
+    },
+    {
+        "name": "Gildur",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Gildur-100x100-1.webp",
+        "position": "Giữa|Trên|Hỗ Trợ",
+        "counters": "Alice|Baldum|Thane"
+    },
+    {
+        "name": "Grakk",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Grakk.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Tulen|Lauriel|Nakroth"
+    },
+    {
+        "name": "Aleister",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Aleister-100x100-1.webp",
+        "position": "Giữa",
+        "counters": "Zill|Murad|Nakroth"
+    },
+    {
+        "name": "Fennik",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Fennik-100x100-1.webp",
+        "position": "Dưới|Đi Rừng",
+        "counters": "Keera|Zill|Violet"
+    },
+    {
+        "name": "Helen",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Helen-100x100-1.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Keera|Zill|Raz"
+    },
+    {
+        "name": "Ngộ Không",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Ngo-Khong-100x100-1.webp",
+        "position": "Đi Rừng",
+        "counters": "Arum|Zephys|Baldum"
+    },
+    {
+        "name": "Kriknak",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Kriknak.webp",
+        "position": "Đi Rừng",
+        "counters": "Arum|Baldum|Stuart"
+    },
+    {
+        "name": "Arthur",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Arthur-100x100-1.webp",
+        "position": "Trên",
+        "counters": "Lauriel|Maloch|Florentino"
+    },
+    {
+        "name": "Slimz",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Slimz.webp",
+        "position": "Dưới",
+        "counters": "Murad|Nakroth|Kriknak"
+    },
+    {
+        "name": "Ilumia",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Ilumia-100x100-1.webp",
+        "position": "Giữa",
+        "counters": "Ngộ Không|Kaine|Paine"
+    },
+    {
+        "name": "Raz",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Raz.webp",
+        "position": "Giữa",
+        "counters": "Nakroth|Murad|Kriknak"
+    },
+    {
+        "name": "Lauriel",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Lauriel-100x100-1.webp",
+        "position": "Giữa",
+        "counters": "Gildur|Aleister|Nakroth"
+    },
+    {
+        "name": "Kaine",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Kaine-100x100-1.webp",
+        "position": "Đi Rừng",
+        "counters": "Lindis|Hayate|Florentino"
+    },
+    {
+        "name": "Murad",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Murad.webp",
+        "position": "Trên|Đi Rừng",
+        "counters": "Baldum|Arum|Alice"
+    },
+    {
+        "name": "Zill",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Zill.webp",
+        "position": "Đi Rừng",
+        "counters": "Murad|Hayate|Eland’orr"
+    },
+    {
+        "name": "Arduin",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Arduin.webp",
+        "position": "Hỗ Trợ|Trên",
+        "counters": "Zephys|Lữ Bố|Maloch"
+    },
+    {
+        "name": "Stuart",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Stuart-100x100-1.webp",
+        "position": "Dưới",
+        "counters": "Kaine|Zill|Nakroth"
+    },
+    {
+        "name": "Ryoma",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Ryoma.webp",
+        "position": "Đi Rừng|Trên",
+        "counters": "Roxie|Zip|Alice"
+    },
+    {
+        "name": "Tel'Annas",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/TelAnnas.webp",
+        "position": "Dưới",
+        "counters": "Nakroth|Murad|Quillen"
+    },
+    {
+        "name": "Superman",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Superman.webp",
+        "position": "Trên",
+        "counters": "Hayate|Aleister|Stuart"
+    },
+    {
+        "name": "Xeniel",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Xeniel.webp",
+        "position": "Hỗ Trợ|Trên",
+        "counters": "Omen|Allain|Slimz"
+    },
+    {
+        "name": "Kil'Groth",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/KilGroth.webp",
+        "position": "Trên",
+        "counters": "Maloch|Omen|Zephys"
+    },
+    {
+        "name": "Moren",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2026/06/moren-image.webp",
+        "position": "Dưới",
+        "counters": "Quillen|Zill|Kriknak"
+    },
+    {
+        "name": "Omen",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Omen.webp",
+        "position": "Trên",
+        "counters": "Maloch|Florentino|Tachi"
+    },
+    {
+        "name": "The Flash",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/The-Flash.webp",
+        "position": "Giữa|Đi Rừng",
+        "counters": "Aleister|Arum|Zill"
+    },
+    {
+        "name": "Rourke",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Rourke.webp",
+        "position": "Đi Rừng",
+        "counters": "Fennik|Zephys|Lữ Bố"
+    },
+    {
+        "name": "Roxie",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Roxie-100x100-1.webp",
+        "position": "Trên",
+        "counters": "Omen|Baldum|Alice"
+    },
+    {
+        "name": "Baldum",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Baldum-100x100-1.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Alice|Thane|Gildur"
+    },
+    {
+        "name": "Amily",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Amily-100x100-1.webp",
+        "position": "Trên",
+        "counters": "Zephys|Lữ Bố|Maloch"
+    },
+    {
+        "name": "Y'bneth",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Ybneth-100x100-1.webp",
+        "position": "Hỗ Trợ|Trên",
+        "counters": "Gildur|Thane|Toro"
+    },
+    {
+        "name": "Elsu",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Elsu-100x100-1.webp",
+        "position": "Dưới",
+        "counters": "Murad|Nakroth|Ngộ Không"
+    },
+    {
+        "name": "Quillen",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Quillen-100x100-1.webp",
+        "position": "Đi Rừng",
+        "counters": "Zephys|Kriknak|Baldum"
+    },
+    {
+        "name": "Veres",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Veres-100x100-1.webp",
+        "position": "Trên",
+        "counters": "Zephys|Maloch|Kil’Groth"
+    },
+    {
+        "name": "D'Arcy",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Darcy-100x100-1.webp",
+        "position": "Giữa",
+        "counters": "Keera|Hayate|Murad"
+    },
+    {
+        "name": "Yena",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Yena-100x100-1.webp",
+        "position": "Trên",
+        "counters": "Astrid|Omen|Zuka"
+    },
+    {
+        "name": "Zip",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Zip-100x100-1.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Alice|Baldum|Thane"
+    },
+    {
+        "name": "Krizzix",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Krizzix.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Baldum|Alice|Thane"
+    },
+    {
+        "name": "Ishar",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Ishar-100x100-1.webp",
+        "position": "Giữa|Hỗ Trợ",
+        "counters": "D’Arcy|Dirak|Điêu Thuyền"
+    },
+    {
+        "name": "Ata",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Ata-100x100-1.webp",
+        "position": "Trên|Hỗ Trợ",
+        "counters": "Keera|Hayate|Triệu Vân"
+    },
+    {
+        "name": "Laville",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Laville-100x100-1.webp",
+        "position": "Dưới",
+        "counters": "Ngộ Không|Zuka|Ryoma"
+    },
+    {
+        "name": "Sinestrea",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Sinestrea-100x100-1.webp",
+        "position": "Đi Rừng",
+        "counters": "Nakroth|Zill|Ngộ Không"
+    },
+    {
+        "name": "Dextra",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Dextra-100x100-1.webp",
+        "position": "Trên",
+        "counters": "Hayate|Eland’orr|Fennik"
+    },
+    {
+        "name": "Yan",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Yan-100x100-1.webp",
+        "position": "Đi Rừng|Trên",
+        "counters": "Hayate|Lauriel|Florentino"
+    },
+    {
+        "name": "Yue",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Yue-100x100-1.webp",
+        "position": "Giữa",
+        "counters": "Nakroth|Zata|Ngộ Không"
+    },
+    {
+        "name": "Bijan",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Bijan.webp",
+        "position": "Trên",
+        "counters": "Omen|Aoi|Florentino"
+    },
+    {
+        "name": "Qi",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Qi-100x100-1.webp",
+        "position": "Trên|Đi Rừng",
+        "counters": "Florentino|Richter|Stuart"
+    },
+    {
+        "name": "Dirak",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Dirak-100x100-1.webp",
+        "position": "Giữa",
+        "counters": "Zata|Yorn|Zill"
+    },
+    {
+        "name": "Flowborn",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2026/05/Flowborn-Xa-Thu.png",
+        "position": "Dưới|Giữa",
+        "counters": "Murad|Nakroth|Kriknak"
+    },
+    {
+        "name": "Goverra",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2026/06/goverra-image.jpg",
+        "position": "Giữa",
+        "counters": "Florentino|Richter|Kil’Groth"
+    },
+    {
+        "name": "Edras",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2026/06/Edras-anh-dai-dien.webp",
+        "position": "Trên",
+        "counters": "Omen|Lữ Bố|Kriknak"
+    },
+    {
+        "name": "Heino",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2026/06/heino-anh-dai-dien.webp",
+        "position": "Giữa",
+        "counters": "Nakroth|Kriknak|Murad"
+    },
+    {
+        "name": "Tamyn",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2026/07/Tamyn-anh-dai-dien.webp",
+        "position": "Trên",
+        "counters": "Veera|Tachi|Aleister"
+    },
+    {
+        "name": "Valhein",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Valhein-100x100-1.webp",
+        "position": "Dưới",
+        "counters": "Murad|Nakroth|Kriknak"
+    },
+    {
+        "name": "Veera",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Veera-100x100-1.webp",
+        "position": "Giữa",
+        "counters": "Zephys|Zill|Murad"
+    },
+    {
+        "name": "Mganga",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Mganga-100x100-1.webp",
+        "position": "Giữa",
+        "counters": "Zephys|Zill|Ngộ Không"
+    },
+    {
+        "name": "Omega",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Omega-100x100-1.webp",
+        "position": "Hỗ Trợ|Trên",
+        "counters": "Thane|Toro|Baldum"
+    },
+    {
+        "name": "Yorn",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Yorn-100x100-1.webp",
+        "position": "Dưới",
+        "counters": "Murad|Keera|Bright"
+    },
+    {
+        "name": "Lumburr",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Lumburr-100x100-1.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Alice|Baldum|Thane"
+    },
+    {
+        "name": "Natalya",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Natalya-100x100-1.webp",
+        "position": "Giữa",
+        "counters": "Zill|Murad|Nakroth"
+    },
+    {
+        "name": "Jinna",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Jinna-100x100-1.webp",
+        "position": "Giữa",
+        "counters": "Aleister|Arum|Hayate"
+    },
+    {
+        "name": "Zuka",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Zuka-100x100-1.webp",
+        "position": "Trên|Đi Rừng",
+        "counters": "Lữ Bố|Zephys|Xeniel"
+    },
+    {
+        "name": "Lindis",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Lindis.webp",
+        "position": "Đi Rừng|Dưới",
+        "counters": "Kriknak|Quillen|Murad"
+    },
+    {
+        "name": "Wisp",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Wisp.webp",
+        "position": "Dưới",
+        "counters": "Quillen|Keera|Astrid"
+    },
+    {
+        "name": "Marja",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Marja-100x100-1.webp",
+        "position": "Trên",
+        "counters": "Lữ Bố|Maloch|Richter"
+    },
+    {
+        "name": "Enzo",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Enzo-100x100-1.webp",
+        "position": "Đi Rừng",
+        "counters": "Arum|Kriknak|Murad"
+    },
+    {
+        "name": "Rouie",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Rouie-100x100-1.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Alice|Baldum|Thane"
+    },
+    {
+        "name": "Thorne",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Thorne-100x100-1.webp",
+        "position": "Dưới|Đi Rừng",
+        "counters": "Murad|Nakroth|Kriknak"
+    },
+    {
+        "name": "Cresht",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Cresht-100x100-1.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Alice|Baldum|Thane"
+    },
+    {
+        "name": "Preyta",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Preyta.webp",
+        "position": "Giữa",
+        "counters": "Nakroth|Kriknak|Murad"
+    },
+    {
+        "name": "Skud",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Skud-100x100-1.webp",
+        "position": "Đi Rừng|Trên",
+        "counters": "Yena|Amily|Maloch"
+    },
+    {
+        "name": "Max",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Max.webp",
+        "position": "Trên",
+        "counters": "Maloch|Zephys|Xeniel"
+    },
+    {
+        "name": "Arum",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Arum.webp",
+        "position": "Hỗ Trợ",
+        "counters": "Thane|Alice|Gildur"
+    },
+    {
+        "name": "Errol",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Errol-100x100-1.webp",
+        "position": "Trên|Đi Rừng",
+        "counters": "Alice|Liliana|Lữ Bố"
+    },
+    {
+        "name": "Taara",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Taara-100x100-1.webp",
+        "position": "Trên",
+        "counters": "Alice|Baldum|Thane"
+    },
+    {
+        "name": "Annette",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Annette-100x100-1.webp",
+        "position": "Hỗ Trợ|Giữa",
+        "counters": "Alice|Baldum|Thane"
+    },
+    {
+        "name": "Wiro",
+        "avatar": "https://lienquanmobile.gg/wp-content/uploads/2024/12/Wiro.webp",
+        "position": "Hỗ Trợ|Trên",
+        "counters": "Cresht|Baldum|Thane"
+    }
+]

@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import HomePage from "./pages/Home"
+import HomePage from "./pages/Home/DraftHome"
 import LoginPage from "./pages/Login"
 import ExplorePage from "./pages/Explore/"
 import CourseDetailPage from "./pages/CourseDetail"
@@ -31,4 +31,3 @@ function App() {
 }
 
 export default App
-

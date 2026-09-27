@@ -43,6 +43,13 @@ const RegisterAdvance = () => {
         return true
     }
 
+    const function1 = () => {
+        try {
+        } catch (error) {
+
+        }
+    }
+
     const handleRegister = async () => {
         const isValid = validate()
         if (!isValid) return
